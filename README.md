@@ -19,3 +19,9 @@ nixpkgs.overlays = [ inputs.nix-packages.overlays.default ];
 
 Package expressions are licensed under the repository license. Packaged
 software retains its upstream license.
+
+## OpenKnowledge
+
+`nix build .#open-knowledge` builds the CLI, web editor and HTTP MCP server.
+See [package notes](pkgs/by-name/op/open-knowledge/README.md) for upstream,
+version pinning, the dependency security override and update steps.
